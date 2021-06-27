@@ -1166,7 +1166,8 @@ body {
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
 }
 .login-box h2 {
-    font-family: NotoSansCJKtc-Black;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
     font-size: 18px;
     text-align: center;
     color: #3D1101;
@@ -1467,7 +1468,8 @@ body {
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
 }
 .regis-box h2 {
-    font-family: NotoSansCJKtc-Black;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
     font-size: 18px;
     text-align: center;
     color: #3D1101;
