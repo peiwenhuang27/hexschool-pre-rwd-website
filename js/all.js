@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    // mobile mode: hamburger dropdown menu
+    $('#hamburger-menu').click(function (e) { 
+        e.preventDefault();
+        $(this).siblings().slideToggle();
+    });
+    
+    // Welcome page: navbar buttons
     $('#feat-button').click(function (e) { 
         e.preventDefault();
         $('html').animate({
@@ -16,5 +23,13 @@ $(document).ready(function () {
         $('html').animate({
             scrollTop: $("#map").offset().top
         }, 500);
+    });
+
+    // footer logo: scroll to top
+    $('.back-top').click(function (e) {
+        // e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 300);
     });
 });
